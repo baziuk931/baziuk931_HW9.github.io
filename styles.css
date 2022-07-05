@@ -900,7 +900,7 @@ html {
         grid-template-columns: repeat(5, 1fr);
         border-radius: 4px;
 
-        justify-content: center;
+        /* justify-content: center; */
 
 
     }
