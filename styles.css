@@ -101,6 +101,11 @@ html {
     left: 39.5%;
 }
 
+.mainPic1>img{
+    right: 0;
+    position: absolute;
+}
+
 .mainContent {
     position: relative;
     max-width: 546px;
@@ -372,7 +377,10 @@ html {
 
 
 @media only screen and (max-width: 720px) {
+    body{
+        overflow-x: hidden;
 
+    }
     .pageMain2 {
         display: flex;
         flex-wrap: wrap;
@@ -381,7 +389,6 @@ html {
 
         min-height: 828px;
         padding: 0;
-        overflow: hidden
     }
 
 
@@ -514,9 +521,9 @@ html {
 
 }
 
-.backgroundStyle {
-    min-width: 1440px;
-}
+/* .backgroundStyle {
+    max-width: 1440px;
+} */
 
 
 /* mobile - page3 */
@@ -604,6 +611,7 @@ html {
     background-repeat: no-repeat;
     box-sizing: border-box;
     overflow: auto;
+    overflow-y: hidden;
     padding: 0 11.52% 66px 11.52%;
 }
 
@@ -726,7 +734,7 @@ html {
 }
 
 .feedbacksSection {
-    max-width: 1688px;
+    /* max-width: 1688px; */
 
     margin-bottom: 47px;
     display: flex;
@@ -736,7 +744,7 @@ html {
 }
 
 .feedbacksSectionGrid {
-
+    width: 100vw;
     position: absolute;
     left: -190px;
 
