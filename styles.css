@@ -521,9 +521,9 @@ html {
 
 }
 
-/* .backgroundStyle {
+.backgroundStyle1 {
     max-width: 1440px;
-} */
+}
 
 
 /* mobile - page3 */
@@ -556,7 +556,7 @@ html {
     }
 
 
-    .backgroundStyle {
+    .backgroundStyle1 {
         position: absolute;
         min-width: 100%;
         top: 427px;
@@ -754,7 +754,7 @@ html {
 
 }
 
-.backgroundStyle {
+.backgroundStyle2 {
     position: absolute;
     width: 100vw;
     min-width: 320px;
