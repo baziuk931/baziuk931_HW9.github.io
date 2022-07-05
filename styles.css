@@ -680,7 +680,7 @@ html {
     .containVectors4{
         justify-content: center;
     }
-    
+
     .containVectors4>div {
 
 
@@ -903,6 +903,9 @@ html {
         justify-content: center;
 
 
+    }
+    .backgroundStyle2{
+        display: none;
     }
 
 
