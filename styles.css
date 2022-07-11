@@ -482,7 +482,7 @@ html {
 
 @media only screen and (max-width: 360px) {
     .main2img {
-        background: linear-gradient(rgb(255, 255, 255) 5.16%, rgba(255, 255, 255, 0) 67.14%) center center, url(./assets/background_main3.svg) no-repeat rgba(255, 255, 255, 0.5);
+        background: linear-gradient(rgb(255, 255, 255) 5.16%, rgba(255, 255, 255, 0) 67.14%) center center, url(./Assets/background_main3.svg) no-repeat rgba(255, 255, 255, 0.5);
         background-position: center center;
         width: 100%;
         min-width: 720px;
